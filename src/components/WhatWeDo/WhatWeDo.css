@@ -1,0 +1,41 @@
+.whatWeDo {
+  padding: 4rem 16rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: center; */
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.whatWeDo div {
+  /* background-color: aqua; */
+  max-width: 26rem;
+  width: 100%;
+  margin: 1rem;
+}
+
+/* .whatWeDo div img   {
+    margin-bottom: 1rem;
+  } */
+.whatWeDo div h1 {
+  margin: 2rem 0;
+}
+
+.whatWeDo div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .whatWeDo {
+    /* flex-direction: column-reverse; */
+    margin: 0;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=w.css.map */

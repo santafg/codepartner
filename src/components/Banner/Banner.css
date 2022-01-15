@@ -1,0 +1,153 @@
+/* Banner */
+.banner {
+  position: relative;
+  padding: 0 4rem 0 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.banner .left {
+  height: 45rem;
+  width: 45rem;
+}
+
+.left .heading {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 6.4rem;
+}
+
+.left .subtitle {
+  margin: 2rem 0;
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.banner .left div button {
+  padding: 1.6rem 3.2rem;
+  border: 0.2rem solid black;
+  background-color: white;
+}
+
+.left div p {
+  margin-top: 1.4rem;
+}
+
+.banner .right img {
+  height: 50rem;
+  width: 45rem;
+  -webkit-filter: drop-shadow(6px 6px 33px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(6px 6px 33px rgba(0, 0, 0, 0.25));
+}
+
+.banner .outside .number p {
+  position: absolute;
+  left: 5.6rem;
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.1rem;
+  letter-spacing: 0.3rem;
+}
+
+.banner .outside .socialMedia {
+  position: absolute;
+  left: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+}
+
+.socialMedia ul {
+  width: 14rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.socialMedia ul li {
+  cursor: pointer;
+}
+
+.banner .outside .support {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.banner .outside .scroll {
+  position: absolute;
+  right: 2rem;
+  bottom: 26rem;
+}
+
+.banner .outside .scroll p {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  right: -1.6rem;
+  bottom: -2.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 1rem;
+    padding: 0;
+  }
+  .banner .outside .socialMedia {
+    top: 50%;
+  }
+  .banner .outside .number p {
+    bottom: 8rem;
+  }
+  .banner .outside .scroll {
+    bottom: 50%;
+  }
+  .banner .outside .scroll p {
+    bottom: -4rem;
+  }
+  .banner .outside .support {
+    bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .banner .outside .socialMedia {
+    top: 6rem;
+    left: -4rem;
+  }
+  .banner .outside .number p {
+    left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .banner .outside .number p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=b.css.map */

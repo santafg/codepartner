@@ -1,0 +1,237 @@
+.aboutUs {
+  padding: 10rem 16rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.aboutUs .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4rem 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.aboutUs .middle > div {
+  max-width: 36rem;
+  width: 100%;
+}
+
+.aboutUs .middle .ml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUs .middle .ml img {
+  width: 100%;
+}
+
+.aboutUs .middle .mr .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.aboutUs .middle .mr .down {
+  margin: -3.4rem 0  3rem 0;
+  width: 90%;
+  opacity: 100%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  height: 6rem;
+}
+
+.aboutUs .middle .mr .downhide {
+  margin: -3.4rem 0  3rem 0;
+  opacity: 0%;
+  width: 90%;
+  height: 0rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.aboutUs .middle .mr h3 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #000000;
+}
+
+.aboutUs .middle .mr span {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #000000;
+}
+
+.aboutUs .middle .mr p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.aboutUs .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutUs .top .tt h5 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  /* identical to box height, or 200% */
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.27);
+}
+
+.aboutUs .top .tb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUs .top .tb > div {
+  margin: 1rem;
+}
+
+.aboutUs .top .tb .tbl {
+  max-width: 40rem;
+  width: 100%;
+}
+
+.aboutUs .top .tb .tbl h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+  /* or 122% */
+  letter-spacing: -0.01rem;
+  color: #090d26;
+}
+
+.aboutUs .top .tr {
+  max-width: 36rem;
+  width: 100%;
+}
+
+.aboutUs .top .tb .tbr {
+  max-width: 36rem;
+  width: 100%;
+}
+
+.aboutUs .top .tb .tbr p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3rem;
+  /* or 156% */
+  letter-spacing: -0.1rem;
+  color: #070707;
+}
+
+.aboutUs .top .tb .tbr p u {
+  color: skyblue;
+}
+
+.aboutUs .bottom {
+  margin: 6rem 0;
+}
+
+.aboutUs .bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.aboutUs .bottom ul li h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #000000;
+}
+
+.aboutUs .bottom ul li p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #929292;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs {
+    margin: 2rem;
+    padding: 0;
+  }
+  .aboutUs .top {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .aboutUs .top .tb {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboutUs .middle {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=a.css.map */

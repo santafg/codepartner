@@ -1,0 +1,82 @@
+.whyChooseUs {
+    margin:0 12rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .whyChooseUs .left {
+    max-width: 44rem;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .whyChooseUs .left div {
+    margin: 2.8rem 0;
+    width: 100%;
+  }
+  .whyChooseUs .left h1 {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 6rem;
+    /* or 122% */
+  
+    letter-spacing: -0.01rem;
+  
+    color: #090d26;
+  }
+  .whyChooseUs .left p {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    /* or 122% */
+  
+    letter-spacing: -0.01rem;
+    color: #292929;
+  }
+  .whyChooseUs .left ul li {
+    display: flex;
+    align-items: center;
+  }
+  .whyChooseUs .left ul li span {
+    margin-right: 1rem;
+  }
+  
+  .whyChooseUs .left span p {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  
+    letter-spacing: -0.01rem;
+    color: #474747;
+  }
+  .whyChooseUs button {
+    color: white;
+    background: #262626;
+  
+    padding: 1rem 3rem;
+    outline: none;
+    border: none;
+  }
+  .whyChooseUs .right{
+      max-width: 62rem;
+      width: 100%;
+      margin-right: -6rem;
+  }
+  .whyChooseUs .right img {
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    .whyChooseUs{
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 2rem;
+    }
+    .whyChooseUs .right{
+        margin-right: 0rem;
+    }
+  }
