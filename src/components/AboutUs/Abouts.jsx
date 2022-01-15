@@ -8,7 +8,7 @@ const Abouts = ({ e, i }) => {
         <h3 className="title">{e.title}</h3>
         <span>{clicked ? "-" : "+"}</span>
       </div>
-      <div className={clicked ? "down" : "downhide"}>
+      <div className={clicked ? "down" : "down hide"}>
         <p>{e.details}</p>
       </div>
     </li>

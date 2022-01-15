@@ -59,15 +59,12 @@
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   height: 6rem;
+  overflow: hidden;
 }
 
-.aboutUs .middle .mr .downhide {
-  margin: -3.4rem 0  3rem 0;
+.aboutUs .middle .mr .down.hide {
   opacity: 0%;
-  width: 90%;
   height: 0rem;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
 }
 
 .aboutUs .middle .mr h3 {
